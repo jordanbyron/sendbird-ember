@@ -1,5 +1,7 @@
 {{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
+<button {{on "click" this.connect}}>
+  Connect to Sendbird
+</button>
 {{!-- Feel free to remove this! --}}
 
 {{outlet}}
